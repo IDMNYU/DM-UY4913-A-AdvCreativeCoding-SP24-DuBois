@@ -164,7 +164,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 239.0, 287.0, 49.0, 29.0 ],
+					"patching_rect" : [ 191.0, 266.0, 49.0, 29.0 ],
 					"text" : "open"
 				}
 
@@ -224,7 +224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 351.0, 480.0, 301.0, 69.0 ],
+					"patching_rect" : [ 351.0, 480.0, 304.0, 69.0 ],
 					"text" : "jit.gl.gridshape d @lighting_enable 1 @smooth_shading 1 @shape torus @scale 0.1 @automatic 0"
 				}
 
