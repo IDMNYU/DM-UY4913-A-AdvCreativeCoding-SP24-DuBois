@@ -1,0 +1,31 @@
+{
+	"pattrstorage" : 	{
+		"name" : "flanger",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"fb" : [ 0.9 ],
+					"rate" : [ 0.1 ],
+					"depth" : [ 1.0 ],
+					"manual" : [ 2.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"fb" : [ 0.5 ],
+					"rate" : [ 0.01 ],
+					"depth" : [ 100.0 ],
+					"manual" : [ 300.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
