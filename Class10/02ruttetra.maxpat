@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -68,7 +68,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 544.0, 479.0, 286.0, 47.0 ],
+					"patching_rect" : [ 544.0, 479.0, 290.0, 47.0 ],
 					"text" : "geometry i'm using to generate the mesh data as a 200x200 plane"
 				}
 
@@ -225,7 +225,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 272.0, 148.0, 67.0 ],
+					"patching_rect" : [ 194.0, 272.0, 150.0, 67.0 ],
 					"text" : "< make ARGB -> single channel grayscale"
 				}
 
@@ -323,8 +323,8 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 377.0, 1036.0, 259.0, 29.0 ],
-					"text" : "jit.gl.mesh s @scale 1. 0.675 1."
+					"patching_rect" : [ 377.0, 1036.0, 599.0, 29.0 ],
+					"text" : "jit.gl.mesh s @scale 1. 0.675 1. @draw_mode line_strip @rotate -30 1 0 0"
 				}
 
 			}
@@ -347,8 +347,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 764.0, 101.0, 109.0, 67.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 764.0, 101.0, 110.0, 67.0 ],
 					"text" : "< plane with more options"
 				}
 
@@ -700,6 +699,10 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jit.*.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.+.mxo",
 				"type" : "iLaX"
 			}
  ],
